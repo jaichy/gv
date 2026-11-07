@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	gverrors "github.com/501urchin/gv/internal/errors"
+	gverrors "github.com/jaichy/gv/internal/errors"
 )
 
 func TestCustom(t *testing.T) {

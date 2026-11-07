@@ -1,8 +1,8 @@
 package pointer
 
 import (
-	gverrors "github.com/501urchin/gv/internal/errors"
-	"github.com/501urchin/gv/internal/pkg"
+	gverrors "github.com/jaichy/gv/internal/errors"
+	"github.com/jaichy/gv/internal/pkg"
 )
 
 func (p *pointerValidator[T]) Optional() *pointerValidator[T] {

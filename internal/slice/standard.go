@@ -1,8 +1,8 @@
 package slice
 
 import (
-	gverrors "github.com/501urchin/gv/internal/errors"
-	"github.com/501urchin/gv/internal/pkg"
+	gverrors "github.com/jaichy/gv/internal/errors"
+	"github.com/jaichy/gv/internal/pkg"
 )
 
 // Element loops over the slice and runs the custom validation func fn. fn needs to return a error

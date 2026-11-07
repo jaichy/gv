@@ -12,9 +12,9 @@
 package gv
 
 import (
-	nv "github.com/501urchin/gv/internal/numeric"
-	slv "github.com/501urchin/gv/internal/slice"
-	sv "github.com/501urchin/gv/internal/string"
+	nv "github.com/jaichy/gv/internal/numeric"
+	slv "github.com/jaichy/gv/internal/slice"
+	sv "github.com/jaichy/gv/internal/string"
 )
 
 // String validates string types, including custom types based on string.

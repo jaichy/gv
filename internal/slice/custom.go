@@ -1,8 +1,8 @@
 package slice
 
 import (
-	gverrors "github.com/501urchin/gv/internal/errors"
-	"github.com/501urchin/gv/internal/pkg"
+	gverrors "github.com/jaichy/gv/internal/errors"
+	"github.com/jaichy/gv/internal/pkg"
 )
 
 func (s *SliceValidator[T]) Unique(customErr ...error) *SliceValidator[T] {

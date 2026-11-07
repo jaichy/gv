@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	gverrors "github.com/501urchin/gv/internal/errors"
+	gverrors "github.com/jaichy/gv/internal/errors"
 )
 
 func TestUnique(t *testing.T) {

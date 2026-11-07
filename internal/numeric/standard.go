@@ -1,8 +1,8 @@
 package numeric
 
 import (
-	gverrors "github.com/501urchin/gv/internal/errors"
-	"github.com/501urchin/gv/internal/pkg"
+	gverrors "github.com/jaichy/gv/internal/errors"
+	"github.com/jaichy/gv/internal/pkg"
 )
 
 func (n *NumericValidator[T]) Optional() *NumericValidator[T] {

@@ -1,6 +1,6 @@
 package gv
 
-import gverrors "github.com/501urchin/gv/internal/errors"
+import gverrors "github.com/jaichy/gv/internal/errors"
 
 type schemaFunc[T any] func(d *T) error
 

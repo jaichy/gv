@@ -3,7 +3,7 @@
 low allocation go validation library to make your life a little bit easier.
 
 ```bash
-go get github.com/501urchin/gv
+go get github.com/jaichy/gv
 ```
 
 ## Example
@@ -18,7 +18,7 @@ type Data struct {
 
 var info = Data{
 	Name:     "Jack",
-	Username: "501urchin",
+	Username: "jaichy",
 	Job:      "Bjj coach",
 	Age:      24,
 }
@@ -112,6 +112,6 @@ if err != nil {
 
 | Benchmark                  | Iterations | Time (ns/op) | Memory (B/op) | Allocs (allocs/op) |
 | -------------------------- | ---------: | -----------: | ------------: | -----------------: |
-| 501urchin/gv-10            | 83,503,381 |        13.95 |             0 |                  0 |
+| jaichy/gv-10            | 83,503,381 |        13.95 |             0 |                  0 |
 | go-playground/validator-10 |  3,241,236 |        370.1 |           688 |                 11 |
 | Oudwins/zog-10             |    824,401 |         1448 |           682 |                 18 |
